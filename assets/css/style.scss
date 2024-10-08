@@ -26,36 +26,60 @@ body {
   padding: 24px;
 }
 
+/* Aggressive navbar styling */
 #header {
-  background-color: $surface-color;
-  padding: 16px 0;
-  margin-bottom: 24px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  background-color: $surface-color !important;
+  padding: 16px 0 !important;
+  margin-bottom: 24px !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  border-bottom: none !important;
 
   nav {
+    background: none !important;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+
     ul {
-      display: flex;
-      justify-content: center;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
+      display: flex !important;
+      justify-content: center !important;
+      list-style-type: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
 
       li {
-        margin: 0 12px;
+        margin: 0 12px !important;
+        float: none !important;
+        height: auto !important;
+        background: none !important;
+        border: none !important;
 
         a {
-          color: $text-color-secondary;
-          text-decoration: none;
-          font-weight: 500;
-          transition: color 0.3s ease;
+          color: $text-color-secondary !important;
+          text-decoration: none !important;
+          font-weight: 500 !important;
+          transition: color 0.3s ease !important;
+          background: none !important;
+          text-shadow: none !important;
+          padding: 8px 12px !important;
+          height: auto !important;
+          line-height: normal !important;
+          border: none !important;
 
           &:hover {
-            color: $text-color;
+            color: $text-color !important;
+            background: none !important;
           }
         }
       }
     }
   }
+}
+
+/* Hide unwanted elements */
+#header .downloads, #title, .bottomnav, #header .fork {
+  display: none !important;
 }
 
 section {
@@ -113,7 +137,6 @@ hr {
   margin: 24px 0;
 }
 
-/* Custom styles for specific elements */
 .page-title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -142,9 +165,67 @@ hr {
   }
 }
 
-/* Hide GitHub button and other default theme elements */
-#header .downloads, #title, .bottomnav {
-  display: none !important;
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+  background-color: $surface-color;
+
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid $border-color;
+    text-align: left;
+  }
+
+  th {
+    background-color: darken($surface-color, 5%);
+    font-weight: 600;
+    color: $text-color;
+  }
+
+  tr:nth-child(even) {
+    background-color: lighten($surface-color, 3%);
+  }
+
+  tr:hover {
+    background-color: lighten($surface-color, 5%);
+  }
+}
+
+/* Form styles */
+form {
+  .form-group {
+    margin-bottom: 16px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: $text-color;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    background-color: lighten($surface-color, 5%);
+    color: $text-color;
+
+    &:focus {
+      outline: none;
+      border-color: $primary-color;
+    }
+  }
+
+  button[type="submit"] {
+    @extend .btn;
+  }
 }
 
 /* Responsive design */
@@ -154,15 +235,23 @@ hr {
   }
 
   #header nav ul {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column !important;
+    align-items: center !important;
 
     li {
-      margin: 8px 0;
+      margin: 8px 0 !important;
     }
   }
 
   section {
     padding: 16px;
+  }
+
+  table {
+    font-size: 14px;
+
+    th, td {
+      padding: 8px;
+    }
   }
 }
