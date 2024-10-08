@@ -17,5 +17,5 @@ For any questions about specific materials or their use in the program, please c
 
 
  
-- [Home](../index)
+- [Home](../)
 - [Back to Top](#course-materials)
