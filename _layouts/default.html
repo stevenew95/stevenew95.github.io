@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <div class="wrapper">
+    <div id="app">
       <header id="header">
         <nav>
           <ul>
@@ -22,15 +22,14 @@
         </nav>
       </header>
 
-      <section>
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-        </div>
-
-        {{ content }}
-
-      </section>
+      <div class="wrapper">
+        <main>
+          <h1 class="page-title">{{ page.title | default: site.title }}</h1>
+          <section class="content-section">
+            {{ content }}
+          </section>
+        </main>
+      </div>
     </div>
   </body>
 </html>
