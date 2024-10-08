@@ -1,38 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Critical Care and Flight Paramedic Program Syllabus</title>
-    <style>
-        .syllabus-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        .syllabus-table th, .syllabus-table td {
-            border: 1px solid var(--border-color, #333);
-            padding: 10px;
-            text-align: left;
-        }
-        .syllabus-table th {
-            background-color: var(--section-background, #242424);
-            color: var(--heading-color, #ffffff);
-        }
-        .syllabus-table tr:nth-child(even) {
-            background-color: var(--code-background, #2a2a2a);
-        }
-        .syllabus-table tr:hover {
-            background-color: var(--section-background, #242424);
-        }
-    </style>
-</head>
-<body>
-    <h1>Critical Care and Flight Paramedic Program Syllabus</h1>
-    
+---
+layout: default
+title: Critical Care and Flight Paramedic Program Syllabus
+---
+
+<style>
+    .syllabus-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .syllabus-table th, .syllabus-table td {
+        border: 1px solid var(--border-color);
+        padding: 0.75rem;
+        text-align: left;
+    }
+    .syllabus-table th {
+        background-color: var(--section-background);
+        font-weight: 600;
+    }
+    .syllabus-table tr:nth-child(even) {
+        background-color: var(--code-background);
+    }
+    .syllabus-table tr:hover {
+        background-color: var(--section-background);
+    }
+</style>
+
+<h1>{{ page.title }}</h1>
+
+<section class="section-container">
     <h2>Course Description</h2>
     <p>This intensive semester-long course prepares students for the Critical Care Paramedic (CCP-C) and Flight Paramedic (FP-C) certification exams. The curriculum covers advanced critical care concepts, integrating both ground and air medical transport considerations.</p>
-    
+</section>
+
+<section class="section-container">
     <h2>Course Details</h2>
     <ul>
         <li><strong>Duration</strong>: 16 weeks</li>
@@ -40,7 +41,9 @@
         <li><strong>Class Time</strong>: 0900-1700 (8 hours per day, including breaks)</li>
         <li><strong>Format</strong>: Combination of lectures, hands-on lab sessions, and simulations</li>
     </ul>
+</section>
 
+<section class="section-container">
     <h2>Course Outline</h2>
     <table class="syllabus-table">
         <thead>
@@ -133,7 +136,9 @@
             </tr>
         </tbody>
     </table>
+</section>
 
+<section class="section-container">
     <h2>Evaluation Methods</h2>
     <ul>
         <li>Midterm Exam: 20%</li>
@@ -142,28 +147,37 @@
         <li>Lab Participation and Performance: 10%</li>
         <li>Research Project/Presentation: 10%</li>
     </ul>
+</section>
 
+<section class="section-container">
     <h2>Required Textbooks</h2>
     <ol>
         <li>"Critical Care Transport" by American Academy of Orthopaedic Surgeons (AAOS)</li>
         <li>"Flight Paramedic Certification: A Comprehensive Study Guide" by Kyle Faudree</li>
         <li>"The Clinical Practice of Flight and Critical Care Parasitology" by Cheryl Bagley Thompson, et al.</li>
     </ol>
+</section>
 
+<section class="section-container">
     <h2>Additional Resources</h2>
     <ul>
         <li>Access to online learning management system for supplementary materials, quizzes, and discussion forums</li>
         <li>Simulation lab with high-fidelity mannequins and transport equipment</li>
         <li>Guest lectures from active flight paramedics and critical care specialists</li>
     </ul>
+</section>
 
+<section class="section-container">
     <h2>Attendance Policy</h2>
     <p>Due to the intensive nature of this course, attendance is mandatory for all sessions. Students are allowed two excused absences per semester. Any additional absences may result in a reduction of the final grade or dismissal from the program.</p>
+</section>
 
+<section class="section-container">
     <h2>Safety Protocols</h2>
     <p>All students must adhere to safety protocols during lab and simulation sessions. This includes proper use of PPE, following infection control guidelines, and adhering to all equipment safety procedures.</p>
+</section>
 
+<section class="section-container">
     <h2>Certification Exam Preparation</h2>
     <p>This course is designed to prepare students for both the CCP-C and FP-C exams. However, passing this course does not guarantee certification. Students are encouraged to utilize additional study resources and take practice exams before attempting the official certification exams.</p>
-</body>
-</html>
+</section>
