@@ -15,6 +15,7 @@ This is the official resource page for our Flight and Critical Care Paramedic Pr
 - [Textbooks and Resources](/resources)
 - [Course Outlines](/outlines)
 - [Certification Exam Preparation](/certification)
+- [Course Syllabus](/syllabus)
 
 </div>
 
