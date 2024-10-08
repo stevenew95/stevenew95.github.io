@@ -30,7 +30,7 @@ This intensive semester-long course prepares students for the Critical Care Para
 | 5 | **Lecture**: Neurological Emergencies I<br>**Lab**: Neurological Assessment Techniques | **Lecture**: Neurological Emergencies II<br>**Lab**: Simulation - Stroke and TBI Management |
 | 6 | **Lecture**: Shock and Multi-system Trauma<br>**Lab**: Damage Control Resuscitation | **Lecture**: Burns and Environmental Injuries<br>**Lab**: Fluid Resuscitation Calculations |
 | 7 | **Lecture**: Pharmacology for Critical Care I<br>**Lab**: Medication Calculations and Administration | **Lecture**: Pharmacology for Critical Care II<br>**Lab**: Infusion Pump Management |
-| 8 | **Mid-term Exam** | **Lecture**: Obstetric and Gynecological Emergencies<br>**Lab**: Simulation - High-Risk Delivery |
+| 8 | **Cadaver Labs** | **Lecture**: Obstetric and Gynecological Emergencies<br>**Lab**: Simulation - High-Risk Delivery |
 | 9 | **Lecture**: Neonatal Emergencies<br>**Lab**: Neonatal Resuscitation | **Lecture**: Pediatric Emergencies I<br>**Lab**: Pediatric Assessment Techniques |
 | 10 | **Lecture**: Pediatric Emergencies II<br>**Lab**: Simulation - Pediatric Respiratory Emergency | **Lecture**: Bariatric and Special Population Considerations<br>**Lab**: Patient Packaging and Transport |
 | 11 | **Lecture**: Laboratory Data Interpretation<br>**Lab**: Point-of-Care Testing | **Lecture**: Ultrasound in Critical Care<br>**Lab**: FAST Exam and Vascular Access |
@@ -38,16 +38,7 @@ This intensive semester-long course prepares students for the Critical Care Para
 | 13 | **Lecture**: Environmental Factors in Transport<br>**Lab**: Simulation - Scene Safety and LZ Operations | **Lecture**: Mechanical Circulatory Support<br>**Lab**: ECMO and LVAD Management |
 | 14 | **Lecture**: Toxicological Emergencies<br>**Lab**: Toxidrome Recognition and Management | **Lecture**: Legal and Ethical Considerations<br>**Lab**: Case Studies Discussion |
 | 15 | **Lecture**: Quality Improvement in Critical Care Transport<br>**Lab**: Performance Improvement Project Presentations | **Lecture**: Research and Evidence-Based Practice<br>**Lab**: Journal Club - Current Topics in Critical Care |
-| 16 | **Final Practical Exam** | **Final Written Exam** |
-
-## Evaluation Methods
-{: .section-container}
-
-- Midterm Exam: 20%
-- Final Written Exam: 30%
-- Final Practical Exam: 30%
-- Lab Participation and Performance: 10%
-- Research Project/Presentation: 10%
+| 16 | **Reivews, Labs, Skills, Etc** | **Final Practical Scenarios** |
 
 ## Required Textbooks
 {: .section-container}
@@ -66,7 +57,7 @@ This intensive semester-long course prepares students for the Critical Care Para
 ## Attendance Policy
 {: .section-container}
 
-Due to the intensive nature of this course, attendance is mandatory for all sessions. Students are allowed two excused absences per semester. Any additional absences may result in a reduction of the final grade or dismissal from the program.
+Due to the intensive nature of this course, full attendance is strongly encouraged. This is not a pass or fail course, but rather a preparation course that will prepare you for the critical care and flight paramedic examinations, while also equiping you with an extensive amount of knowledge beyodnd the paramedic role. In order to recieve a completion certificate, you must attend at least 224 of the 256 hours that this course is designed to take. If you fail to meet those hours, you will still obtain a certificate of attendace for the hours completed and continuing education credits. 
 
 ## Safety Protocols
 {: .section-container}
@@ -76,4 +67,4 @@ All students must adhere to safety protocols during lab and simulation sessions.
 ## Certification Exam Preparation
 {: .section-container}
 
-This course is designed to prepare students for both the CCP-C and FP-C exams. However, passing this course does not guarantee certification. Students are encouraged to utilize additional study resources and take practice exams before attempting the official certification exams.
+This course is designed to prepare students to sit for both the CCP-C and FP-C exams. However, completing this course does not guarantee certification. Students are encouraged to utilize additional study resources and take practice exams before attempting the official certification exams.
