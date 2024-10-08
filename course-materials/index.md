@@ -11,6 +11,6 @@ These lists are designed to give you a clear understanding of the resources used
 
 For any questions about specific materials or their use in the program, please contact your instructor or program coordinator.
 
-<div class="section-container" mardown-"1">
-- [Home](./index)
+<div class="section-container" markdown="1">
+ - [Home]
 </div>
