@@ -7,12 +7,16 @@ layout: default
 
 This is the official resource page for our Flight and Critical Care Paramedic Program. Here you'll find comprehensive course materials, resources, and certification information.
 
+<div class="section-container" markdown="1">
+
 ## Quick Links
 
 - [Course Materials](/course-materials)
 - [Textbooks and Resources](/resources)
 - [Course Outlines](/outlines)
 - [Certification Exam Preparation](/certification)
+
+</div>
 
 
 ## About the Program
