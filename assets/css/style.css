@@ -1,0 +1,34 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Add your custom styles here */
+
+body {
+  background: #1c1c1c;
+  color: #e0e0e0;
+}
+
+#header {
+  background: #0d47a1;
+  nav {
+    background: #0d47a1;
+    ul li.fork {
+      background-color: #1565c0;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4a90e2;
+}
+
+a {
+  color: #64b5f6;
+  &:hover {
+    color: #90caf9;
+  }
+}
+
+/* Add more custom styles as needed */
