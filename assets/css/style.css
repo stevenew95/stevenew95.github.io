@@ -3,31 +3,64 @@
 
 @import "{{ site.theme }}";
 
-/* Add your custom styles here */
+/* Custom color variables */
+$background-color: #1a2035;
+$text-color: #e0e0e0;
+$heading-color: #4a90e2;
+$link-color: #64b5f6;
+$link-hover-color: #90caf9;
+$header-bg: #0d47a1;
 
+/* Apply custom styles */
 body {
-  background: #1c1c1c;
-  color: #e0e0e0;
+  background: $background-color;
+  color: $text-color;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 #header {
-  background: #0d47a1;
+  background: $header-bg;
   nav {
-    background: #0d47a1;
+    background: $header-bg;
     ul li.fork {
-      background-color: #1565c0;
+      display: none; /* Hide GitHub buttons */
     }
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #4a90e2;
+  color: $heading-color;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
-  color: #64b5f6;
+  color: $link-color;
   &:hover {
-    color: #90caf9;
+    color: $link-hover-color;
+  }
+}
+
+/* Custom navigation styles */
+nav {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+    li {
+      margin: 0 10px;
+      
+      a {
+        color: $text-color;
+        text-decoration: none;
+        font-weight: bold;
+        
+        &:hover {
+          color: $link-hover-color;
+        }
+      }
+    }
   }
 }
 
