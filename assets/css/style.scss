@@ -7,7 +7,7 @@
 $background-color: #1f2937;
 $surface-color: #374151;
 $text-color: #f9fafb;
-$text-color-secondary: #94a3b8;
+$text-color-secondary: #9ca3af;
 $primary-color: #3b82f6;
 $border-color: #4b5563;
 
@@ -72,12 +72,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { 
-  font-size: 2rem; 
+  font-size: 1.5rem; 
   margin-bottom: 16px;
 }
 
 h2 { 
-  font-size: 1.5rem; 
+  font-size: 1.25rem; 
   margin-bottom: 12px;
 }
 
@@ -113,24 +113,37 @@ hr {
   margin: 24px 0;
 }
 
-#title {
-  text-align: center;
-  margin-bottom: 32px;
+/* Custom styles for specific elements */
+.page-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: $text-color;
+}
 
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 8px;
-    color: $primary-color;
-  }
+.content-section {
+  background-color: $surface-color;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
 
-  p {
-    color: $text-color-secondary;
-    font-size: 1rem;
+.btn {
+  background-color: $primary-color;
+  border: none;
+  color: $text-color;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
   }
 }
 
-/* Hide GitHub button */
-#header .downloads {
+/* Hide GitHub button and other default theme elements */
+#header .downloads, #title, .bottomnav {
   display: none !important;
 }
 
