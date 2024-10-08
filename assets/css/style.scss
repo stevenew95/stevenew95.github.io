@@ -3,13 +3,13 @@
 
 @import "{{ site.theme }}";
 
-/* 2024 Modern Dark Theme Variables */
-$background-color: #121212;
-$surface-color: #1e1e1e;
-$primary-color: #3a86ff;
+/* Refined Modern Dark Theme Variables */
+$background-color: #1a1a1a;
+$surface-color: #242424;
+$primary-color: #4a6fa5;
 $text-color: #e0e0e0;
 $text-color-secondary: #a0a0a0;
-$border-color: #2a2a2a;
+$border-color: #333333;
 
 body {
   background: $background-color;
@@ -21,7 +21,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -116,15 +116,20 @@ hr {
   margin-bottom: 40px;
 
   h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 10px;
     color: $primary-color;
   }
 
   p {
     color: $text-color-secondary;
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
+}
+
+/* Hide GitHub button */
+#header .downloads {
+  display: none;
 }
 
 /* Responsive design */
