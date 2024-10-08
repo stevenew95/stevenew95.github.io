@@ -3,10 +3,10 @@
 
 @import "{{ site.theme }}";
 
-/* Refined Modern Dark Theme Variables */
+/* Improved Modern Dark Theme Variables */
 $background-color: #1a1a1a;
 $surface-color: #242424;
-$primary-color: #4a6fa5;
+$primary-color: #4e7ac7;  /* Adjusted for better visibility */
 $text-color: #e0e0e0;
 $text-color-secondary: #a0a0a0;
 $border-color: #333333;
@@ -26,15 +26,22 @@ body {
   padding: 0 20px;
 }
 
+/* Override default header styles */
 #header {
-  background: $surface-color;
+  background: $surface-color !important;  /* Use !important to override theme styles */
   padding: 20px 0;
   position: sticky;
   top: 0;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-bottom: none;  /* Remove any default border */
 
   nav {
+    background: none !important;  /* Remove any background from nav */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+
     ul {
       display: flex;
       justify-content: center;
@@ -44,15 +51,19 @@ body {
 
       li {
         margin: 0 15px;
+        float: none !important;  /* Override any float */
 
         a {
-          color: $text-color;
+          color: $text-color !important;
+          background: none !important;  /* Remove button background */
           text-decoration: none;
           font-weight: 500;
           transition: color 0.3s ease;
+          border: none !important;  /* Remove any border */
+          box-shadow: none !important;  /* Remove any shadow */
 
           &:hover {
-            color: $primary-color;
+            color: $primary-color !important;
           }
         }
       }
@@ -129,7 +140,7 @@ hr {
 
 /* Hide GitHub button */
 #header .downloads {
-  display: none;
+  display: none !important;
 }
 
 /* Responsive design */
