@@ -3,11 +3,125 @@
 
 @import "{{ site.theme }}";
 
-/* Add your custom styles here */
+/* Modern Dark Theme for 2024 */
+
+:root {
+  --background-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --heading-color: #ffffff;
+  --link-color: #4da6ff;
+  --link-hover-color: #66b3ff;
+  --code-background: #2a2a2a;
+  --border-color: #333333;
+  --section-background: #242424;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.page-header {
+  background-color: #0d47a1;
+  background-image: linear-gradient(120deg, #0d47a1, #2196f3);
+}
+
+.project-name {
+  font-weight: 700;
+}
+
 .main-content {
   h1, h2, h3, h4, h5, h6 {
-    color: #159957;
+    color: var(--heading-color);
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.75rem; }
+  h4 { font-size: 1.5rem; }
+  h5 { font-size: 1.25rem; }
+  h6 { font-size: 1rem; }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  code {
+    padding: 2px 4px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    background-color: var(--code-background);
+    border-radius: 3px;
+  }
+
+  pre {
+    padding: 1rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 3px;
+    background-color: var(--code-background);
   }
 }
 
-/* You can add more custom styles as needed */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+  }
+}
+
+.section-container {
+  background-color: var(--section-background);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul, ol {
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.5rem;
+
+  th, td {
+    border: 1px solid var(--border-color);
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  th {
+    background-color: var(--section-background);
+    font-weight: 600;
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--code-background);
+  }
+}
+
+/* Responsive design */
+@media screen and (max-width: 42em) {
+  .page-header {
+    padding: 2rem 1rem;
+  }
+  .main-content {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+}
