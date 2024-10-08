@@ -4,7 +4,7 @@ Welcome to the Course Materials section of our Flight and Critical Care Paramedi
 
 ## Available Course Material Lists
 
-- [Flight Paramedic (FP-C) and Critical Care Paramedic (CCP-C) Materials](fp-c-ccp-c-materials)
+- [Flight Paramedic (FP-C) and Critical Care Paramedic (CCP-C) Materials](fp-c_ccp-c_materials)
 - [Certified Flight Registered Nurse (CFRN) Materials](cfrn-materials) <!-- Create this file if needed -->
 
 These lists are designed to give you a clear understanding of the resources used in our program. They include textbooks, simulation equipment, medical devices, and other essential items that support your learning journey.
